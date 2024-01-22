@@ -4,4 +4,3 @@ jobs:
         runs-on: windows-latest
         steps:
             - run: git --version
-            - run: node -- version
