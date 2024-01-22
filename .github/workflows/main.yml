@@ -1,6 +1,16 @@
 on: push
 jobs:
     first-job:
-        runs-on: windows-latest
+        runs-on: ubantu-latest
+        container: node:17.6.0
         steps:
             - run: git --version
+
+
+
+#             on: push
+# jobs:
+#     first-job:
+#         runs-on: windows-latest
+#         steps:
+#             - run: git --version
