@@ -4,7 +4,9 @@ jobs:
         runs-on: ubantu-latest
         container: node:17.6.0
         steps:
-            - run: git --version
+            - run: node --version
+            - run: npm --version
+
 
 
 
