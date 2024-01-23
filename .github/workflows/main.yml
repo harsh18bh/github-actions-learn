@@ -2,24 +2,24 @@ on: push
 jobs:
     first-job:
         runs-on: ubuntu-latest
+        container: node:17.6.0
         steps:
             - run: node --version
             - run: npm --version
-       
+
 # on: push
 # jobs:
 #     first-job:
-#         runs-on: ubantu-latest
-#         container: node:17.6.0
+#         runs-on: ubuntu-latest
 #         steps:
 #             - run: node --version
 #             - run: npm --version
+       
 
 
 
-
-#             on: push
-# jobs:
+# on: push
+# jobs:p
 #     first-job:
 #         runs-on: windows-latest
 #         steps:
